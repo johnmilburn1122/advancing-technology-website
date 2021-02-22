@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link href="css/normalize.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link href="CSS/style.css" rel="stylesheet">
+        <title>Tickets</title>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="/">homepage</a></li>
+                <li><a href="/tickets.html">tickets</a></li>
+            </ul>
+        </nav>
+        <section>
+            <header>
+                <img src="images/hero-symbol.jpg" alt="Image of Laptop">
+                <h1>ADVANCING TECHNOLOGY</h1>
+                <h2>1st Annual Budding Developers Conference</h2>
+                <p>Orlando, FL - October 11, 2019</p>
+            </header>
+        </section>
+        <h1 style="text-align: center;">Tickets</h1>
+        <section class="form">
+            <form method="post" action="">
+                <h2 style="text-align: center;">Your Info</h2>
+                <div class="input">
+                    <input type="text" value="Name" name="name" required></div>
+                <div class="input">
+                    <input type="text" value="Email" name="email" required></div>
+                <p>
+                    <h2 style="text-align: center;">Package</h2>
+                    <div class="input" style="width:inherit">
+                        <select name="package" id="package-options">
+                            <option value="1">Standard - $149</option>
+                            <option value="2">Deluxe - $200</option>
+                        </select>
+                    </div>
+                </p>
+                <p>
+                    <div class="input" style="margin-left: 20px;">
+                        <input type="radio" name="firstroom" value="1">
+                        Add on lodging -$99</div>
+                    <div class="input" style="margin-left: 20px;">
+                        <input type="radio" name="secondroom" value="2">
+                        Add on Meals- $119</div>
+                </p>
+                <p><input type="submit" value="Submit"></p>
+            </form>
+        </section>
+
+        <a href="/index.html">
+            <u>Back to Home</u>
+        </a>
+        <footer class="footer">
+            <p>&copy 2021</p>
+        </footer>
+    </body>
+</html>
