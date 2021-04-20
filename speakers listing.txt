@@ -1,0 +1,10 @@
+let speakers = [
+  "Johnny",
+  "Jane",
+  "Tim",
+  "Mary",
+  "Jim",
+  "Tammy",
+  "Frogo",
+  "Susan",
+];

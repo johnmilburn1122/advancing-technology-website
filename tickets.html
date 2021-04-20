@@ -11,11 +11,13 @@
         <title>Tickets</title>
     </head>
     <body>
-        <nav>
+        <nav class="nav">            
             <ul>
                 <li><a href="/">homepage</a></li>
                 <li><a href="/tickets.html">tickets</a></li>
-            </ul>
+                <li><a href="/rating.html">rating</a></li>
+
+            </ul>            
         </nav>
         <section>
             <header>
@@ -25,7 +27,13 @@
                 <p>Orlando, FL - October 11, 2019</p>
             </header>
         </section>
-        <h1 style="text-align: center;">Tickets</h1>
+        <h1 style="text-align: center;">Get Y<button class="btn open-modal">o</button>  ur Tickets</h1>
+        <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <p class="prize-text">Enter Your 5 Digit Code Number</p>
+      <input class="guessField" type="number" required />
+      <button class="tryit" onclick="checkGuess()">Try it</button>
+    </div>
         <section class="form">
             <form method="post" action="">
                 <h2 style="text-align: center;">Your Info</h2>
@@ -50,7 +58,7 @@
                         <input type="radio" name="secondroom" value="2">
                         Add on Meals- $119</div>
                 </p>
-                <p><input type="submit" value="Submit"></p>
+                <p class="tickets"><input type="submit" value="Submit"></p>
             </form>
         </section>
 
@@ -58,7 +66,8 @@
             <u>Back to Home</u>
         </a>
         <footer class="footer">
-            <p>&copy 2021</p>
+            © 2021
         </footer>
+              <script src="js/script.js"></script> 
     </body>
 </html>
